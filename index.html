@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">  
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />    
+    <title>TehnoLab | Терминал с проектами</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../../lib/images/favicon.png">
+    <meta name="description" content="Небольшой сайт с каталогом проектов для терминала TehnoLab">
+    <meta name="author" content="#TheDayG0ne">
+        
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="lib/css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="../../lib/css/style.css">
+    <link rel="stylesheet" href="../../lib/css/font-awesome.css">
+    <link rel="stylesheet" href="../../lib/css/isotope.css">
+    <link rel="stylesheet" href="../../lib/layerslider/css/layerslider.css">
+    <link rel="stylesheet" href="../../lib/js/prettyPhoto/css/prettyPhoto.css">
+    <!-- end CSS-->
+     
+    <!-- scripts concatenated and minified via ant build script-->
+    <script src="../../lib/js/jquery-1.8.3.min.js"></script>
+    <script src="../../lib/js/modernizr-2.6.1.min.js"></script>
+    <script src="../../lib/js/conditional.js"></script>
+    <script src="../../lib/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <script src="../../lib/js/jquery.isotope.min.js"></script>
+    <script src="../../lib/js/script.js"></script>
+    
+    <!-- begin menu scrollTo script-->
+    <script src="../../lib/js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        /* This code is executed after the DOM has been completely loaded */
+        
+        $('a#logo, #nav li a, a.back_to_top, a.scroll_btn, a.read_more').click(function(e){
+                                              
+            // If a link has been clicked, scroll the page to the link's hash target:
+            
+            $.scrollTo(this.hash || 0, 1100, { axis:'y',easing:'easeInOutExpo' });
+			
+            e.preventDefault();
+        });
+    
+    });
+    </script>
+	<!-- end menu scrollTo script-->
+    
+    <!-- begin menu color script-->
+    <script src="../../lib/js/jquery.nav.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+		filter: ':not(.external)',
+		scrollThreshold: 0.25
+		});
+	});
+	</script>
+    <!-- begin menu color script-->
+    
+    <!-- begin responsive menu script-->
+    <script src="../../lib/js/tinynav.min.js"></script>
+    <script>
+		$(function () {
+	
+		  // TinyNav.js 2
+		  $('#nav').tinyNav({
+			header: '-- Navigation --' // Writing any title with this option triggers the header
+		  });
+	
+		});
+	  </script>
+    <!-- end responsive menu script-->
+    
+    <!-- begin jquery.sticky script-->
+    <script type="text/javascript" src="../../lib/js/jquery.sticky.js"></script>
+		<script>
+        $(window).load(function(){
+          $("#header_wrapper").sticky({ topSpacing: 0 });
+        });
+    </script>
+    <!-- end jquery.sticky script-->
+  
+    <!--begin placeholder script -->
+    <script src="../../lib/js/jquery.placeholder.js" type="text/javascript"></script>
+    <script>
+		$(function(){
+			$.placeholder.shim();
+		});
+	</script>
+    <!--end placeholder script -->
+    
+    <!-- begin background slideshow script-->
+    <script src="../../lib/js/jquery.vegas.js"></script>
+    <script>
+	$( function() {
+			$.vegas('slideshow', {
+				backgrounds:[
+					{ src:'http://placehold.it/2500x1200', fade:1500 },
+					{ src:'http://placehold.it/2500x1200', fade:1500 },
+					{ src:'http://placehold.it/2500x1200', fade:1500 }
+				],
+				loading:false
+			})
+		});
+    </script>
+	<!-- end background slideshow script-->
+    
+    <!-- end scripts-->
+    
+</head>
+
+<body>
+
+    <!--begin dotted_bg -->
+	<div id="dotted_bg"></div>
+    <!--end dotted_bg -->
+	
+    <!--begin container -->
+    <div id="container">
+    
+        <!--begin services section -->
+        <section id="home">
+                            
+            <img src="../../lib/images/home_text.png" alt="TehnoLab" class="home_img">
+            
+            <h1 class="slogan">Немного о нас<br><br>и наших проектах</h1>
+            
+            <a href="#" class="read_more">▼ Листайте вниз ▼</a>
+			
+            
+        </section>
+        <!--end home section -->
+        <!--begin services section -->
+        <section id="services">
+        
+            <!--begin intro -->
+            <div class="intro">
+                <h2 class="title">Что мы делаем?</h2>
+                <h3 class="subtitle">Мы - TehnoLab, команда энтузиастов и изобретателей. Собираем интересные проекты и делаем то, что не могут сделать другие.</h3>
+            </div>
+            <!--end intro -->
+            
+            <!--begin services_box -->
+            <div class="services_box">
+                
+                <!--begin row -->
+                <div class="row">
+                    
+                    <!--begin twelvecol -->
+                    <div class="twelvecol">
+                      <!--begin threecol -->
+                        <div class="threecol services_item">
+                            <div class="icon_wrapper">
+                                <div class="icon_box">
+                                    <i class="icon-volume-up icon-8x"></i>
+                                    <span class="services_arrow"></span>
+                                </div>
+                            </div>
+                            <h2>Выбор проекта</h2>
+                            <p>Выбираем проект, смотрим, что он из себя представляет и как выглядит</p>
+                        </div>
+                        <!--end threecol -->
+                        <!--begin threecol -->
+                        <div class="threecol services_item">
+                            <div class="icon_wrapper">
+                                <div class="icon_box">
+                                    <i class="icon-laptop icon-8x"></i>
+                                    <span class="services_arrow"></span>
+                                </div>
+                            </div>
+                            <h2>Разработка макета</h2>
+                            <p>Разрабатываем макет нужных деталей для сборки</p>
+                        </div>
+                        <!--end threecol -->
+                        
+                        <!--begin threecol -->
+                        <div class="threecol services_item">
+                            <div class="icon_wrapper">
+                                <div class="icon_box">
+                                    <i class="icon-comments icon-8x"></i>
+                                    <span class="services_arrow"></span>
+                                </div>
+                            </div>
+                            <h2>Обсуждение</h2>
+                            <p>Обсуждаем некоторые технические моменты</p>
+                        </div>
+                        <!--end threecol -->
+						<!--begin threecol -->
+                        <div class="threecol last services_item">
+                            <div class="icon_wrapper">
+                                <div class="icon_box">
+                                    <i class="icon-leaf icon-8x"></i>
+                                    <span class="services_arrow"></span>
+                                </div>
+                            </div>
+                            <h2>Сборка </h2>
+                            <p>Собираем проект</p>
+                        </div>
+                        <!--end threecol -->
+                    </div>
+                    <!--end twelvecol -->
+                </div>
+                <!--end row -->
+                </div>
+            <!--end services_box -->
+        </section>
+        <!--end services section -->
+        <!--begin portfolio section -->
+        <section id="portfolio">
+ 
+            <!--begin portfolio_intro -->
+            <div class="portfolio_intro">
+                <h2 class="title yellow">Наши проекты</h2>
+            </div>
+            <!--end portfolio_intro -->
+                       
+            <!--begin isotope -->
+            <div class="isotope">
+            
+                <!--begin portfolio filter -->
+                <ul id="filter" class="option-set clearfix">
+                    <li data-filter="*" class="selected"><a href="#">Все</a></li>
+                    <li data-filter=".electronic"><a href="#">Электроника</a></li>
+                    <li data-filter=".suvenir"><a href="#">Сувенирная продукция</a></li>
+                    <li data-filter=".order"><a href="#">Заказы</a></li>
+					<li data-filter=".experiments"><a href="#">Э-э-эксперименты :)</a></li>
+					<li data-filter=".another"><a href="#">Прочее</a></li>
+                </ul>
+                <!--end portfolio filter -->
+                     
+                <!--begin portfolio_list -->   
+                <ul id="list" class="portfolio_list">
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/hypercube/2.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/3.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/4.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/5.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/6.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/7.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/8.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/9.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/10.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/11.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/12.jpg" class="prettyPhoto[gallery1]">
+							<a href="lib/images/projects/hypercube/13.jpg" class="prettyPhoto[gallery1]">
+                            <a href="lib/images/projects/hypercube/1.jpg" class="prettyPhoto[gallery1]">
+                                <img src="../../lib/images/projects/hypercube/preview.png" alt="Фото проекта: Гиперкуб">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Гиперкуб</h2>
+                            <span>Автор: Новиков Д. С.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+                        <a href="../../lib/images/projects/holodos/2.jpg" class="prettyPhoto[gallery2]">
+						<a href="lib/images/projects/holodos/3.jpg" class="prettyPhoto[gallery2]">
+						<a href="lib/images/projects/holodos/4.jpg" class="prettyPhoto[gallery2]">
+						<a href="lib/images/projects/holodos/5.jpg" class="prettyPhoto[gallery2]">
+						<a href="lib/images/projects/holodos/6.jpg" class="prettyPhoto[gallery2]">
+						<a href="lib/images/projects/holodos/1.jpg" class="prettyPhoto[gallery2]">
+                                <img src="../../lib/images/projects/holodos/preview.png" alt="Фото проекта: ХолоDOS">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>ХолоDOS</h2>
+                            <span>Автор: Шевцов Р., Сажин А. В.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/servant_zone/2.jpg" class="prettyPhoto[gallery3]">
+							<a href="lib/images/projects/servant_zone/3.jpg" class="prettyPhoto[gallery3]">
+							<a href="lib/images/projects/servant_zone/4.jpg" class="prettyPhoto[gallery3]">
+                            <a href="lib/images/projects/servant_zone/1.jpg" class="prettyPhoto[gallery3]">
+                                <img src="../../lib/images/projects/servant_zone/preview.png" alt="Фото проекта: Серверная зона">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Серверная зона</h2>
+                            <span>Авторы: Сажин А. В., Стручков Е. А.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery4]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Рука-манипулятор</h2>
+                            <span>Автор: Новиков Д. С.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                     
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/infoterminal/2.jpg" class="prettyPhoto[gallery5]">
+							<a href="lib/images/projects/infoterminal/3.jpg" class="prettyPhoto[gallery5]">
+							<a href="lib/images/projects/infoterminal/4.jpg" class="prettyPhoto[gallery5]">
+							<a href="lib/images/projects/infoterminal/5.jpg" class="prettyPhoto[gallery5]">
+							<a href="lib/images/projects/infoterminal/6.jpg" class="prettyPhoto[gallery5]">
+							<a href="lib/images/projects/infoterminal/7.jpg" class="prettyPhoto[gallery5]">
+                            <a href="lib/images/projects/infoterminal/1.jpg" class="prettyPhoto[gallery5]">
+                                <img src="../../lib/images/projects/infoterminal/preview.png" alt="Фото проекта: Информационный терминал">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Информационный терминал</h2>
+                            <span>Автор: Стручков Е. А.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/wifi_lamp/2.jpg" class="prettyPhoto[gallery6]">
+							<a href="lib/images/projects/wifi_lamp/3.jpg" class="prettyPhoto[gallery6]">
+							<a href="lib/images/projects/wifi_lamp/4.jpg" class="prettyPhoto[gallery6]">
+							<a href="lib/images/projects/wifi_lamp/4.jpg" class="prettyPhoto[gallery6]">
+                            <a href="lib/images/projects/wifi_lamp/1.jpg" class="prettyPhoto[gallery6]">
+                                <img src="../../lib/images/projects/wifi_lamp/preview.png" alt="Фото проекта: Умный светильник с Wi-Fi">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Умный светильник с Wi-Fi</h2>
+                            <span>Автор: Стручков Е. А.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/arka/2.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/3.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/4.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/5.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/6.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/7.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/8.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/9.jpg" class="prettyPhoto[gallery7]">
+							<a href="lib/images/projects/arka/10.jpg" class="prettyPhoto[gallery7]">
+                            <a href="lib/images/projects/arka/1.jpg" class="prettyPhoto[gallery7]">
+                                <img src="../../lib/images/projects/arka/preview.png" alt="Фото проекта: Арка исполнения желаний">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Арка исполнения желаний</h2>
+                            <span>Авторы: Дындарь Г. Е., Катаев Д. С.</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/brelok_shinomontaj/2.jpg" class="prettyPhoto[gallery8]">
+							<a href="lib/images/projects/brelok_shinomontaj/3.jpg" class="prettyPhoto[gallery8]">
+                            <a href="lib/images/projects/brelok_shinomontaj/1.jpg" class="prettyPhoto[gallery8]">
+                                <img src="../../lib/images/projects/brelok_shinomontaj/preview.png" alt="Фото проекта: Брелки для шиномонтажной мастерской">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Брелки для шиномонтажной мастерской</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery9]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Блокноты</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                     
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery10]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Визитница</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/suvenirnaya_lavka/2.jpg" class="prettyPhoto[gallery11]">
+							<a href="lib/images/projects/suvenirnaya_lavka/3.jpg" class="prettyPhoto[gallery11]">
+                            <a href="lib/images/projects/suvenirnaya_lavka/1.jpg" class="prettyPhoto[gallery11]">
+                                <img src="../../lib/images/projects/suvenirnaya_lavka/preview.png" alt="Фото проекта: Вывеска Сувенирная лавка">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Вывеска "Сувенирная лавка"</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/xakstroyexpo/2.jpg" class="prettyPhoto[gallery12]">
+							<a href="lib/images/projects/xakstroyexpo/3.jpg" class="prettyPhoto[gallery12]">
+							<a href="lib/images/projects/xakstroyexpo/4.jpg" class="prettyPhoto[gallery12]">
+							<a href="lib/images/projects/xakstroyexpo/5.jpg" class="prettyPhoto[gallery12]">
+                            <a href="lib/images/projects/xakstroyexpo/1.jpg" class="prettyPhoto[gallery12]">
+                                <img src="../../lib/images/projects/xakstroyexpo/preview.png" alt="Фото проекта: ХакСтройЭкспо">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+
+
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Участие в ХакСтройЭкспо</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/worldskills/2.jpg" class="prettyPhoto[gallery13]">
+							<a href="lib/images/projects/worldskills/3.jpg" class="prettyPhoto[gallery13]">
+                            <a href="lib/images/projects/worldskills/1.jpg" class="prettyPhoto[gallery13]">
+                                <img src="../../lib/images/projects/worldskills/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Таблички для рабочих мест WorldSkills</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/tkhis_banner/2.jpg" class="prettyPhoto[gallery14]">
+							<a href="lib/images/projects/tkhis_banner/3.jpg" class="prettyPhoto[gallery14]">
+							<a href="lib/images/projects/tkhis_banner/4.jpg" class="prettyPhoto[gallery14]">
+                            <a href="lib/images/projects/tkhis_banner/1.jpg" class="prettyPhoto[gallery14]">
+                                <img src="../../lib/images/projects/tkhis_banner/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Рекламный баннер ТКХиС</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                        
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+                    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/aptechka/2.jpg" class="prettyPhoto[gallery15]">
+                            <a href="lib/images/projects/aptechka/1.jpg" class="prettyPhoto[gallery15]">
+                                <img src="../../lib/images/projects/aptechka/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Аптечка-"Хилка"</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic experiments">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/runstroke_pr/2.jpg" class="prettyPhoto[gallery16]">
+							<a href="lib/images/projects/runstroke_pr/3.jpg" class="prettyPhoto[gallery16]">
+							<a href="lib/images/projects/runstroke_pr/4.jpg" class="prettyPhoto[gallery16]">
+							<a href="lib/images/projects/runstroke_pr/5.jpg" class="prettyPhoto[gallery16]">
+							<a href="lib/images/projects/runstroke_pr/6.jpg" class="prettyPhoto[gallery16]">
+							<a href="lib/images/projects/runstroke_pr/7.jpg" class="prettyPhoto[gallery16]">
+                            <a href="lib/images/projects/runstroke_pr/1.jpg" class="prettyPhoto[gallery16]">
+                                <img src="../../lib/images/projects/runstroke_pr/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Программирование бегущей строки</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/sanzone/2.jpg" class="prettyPhoto[gallery17]">
+                            <a href="lib/images/projects/sanzone/1.jpg" class="prettyPhoto[gallery17]">
+                                <img src="../../lib/images/projects/sanzone/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Санитарный уголок в TehnoLab</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+				    <!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/metalfind/2.jpg" class="prettyPhoto[gallery18]">
+							<a href="lib/images/projects/metalfind/3.jpg" class="prettyPhoto[gallery18]">
+                            <a href="lib/images/projects/metalfind/1.jpg" class="prettyPhoto[gallery18]">
+                                <img src="../../lib/images/projects/metalfind/preview.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Металлоискатель</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/testpc_zone/2.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/3.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/4.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/5.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/6.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/7.jpg" class="prettyPhoto[gallery19]">
+							<a href="lib/images/projects/testpc_zone/8.jpg" class="prettyPhoto[gallery19]">
+                            <a href="lib/images/projects/testpc_zone/1.jpg" class="prettyPhoto[gallery19]">
+                                <img src="../../lib/images/projects/testpc_zone/preview.png" alt="Фото проекта: Место диагностики ПК">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Место диагностики ПК</h2>
+                            <span>Автор: ССА-11, команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+                    
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/lasercnc_cooling/2.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/3.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/4.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/5.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/6.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/7.jpg" class="prettyPhoto[gallery20]">
+							<a href="lib/images/projects/lasercnc_cooling/8.jpg" class="prettyPhoto[gallery20]">
+                            <a href="lib/images/projects/lasercnc_cooling/1.jpg" class="prettyPhoto[gallery20]">
+                                <img src="../../lib/images/projects/lasercnc_cooling/preview.png" alt="Фото проекта: Система охлаждения для лазерного ЧПУ станка">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Система охлаждения для лазерного ЧПУ станка</h2>
+                            <span>Автор: ВС-41, команда TehnoLab</span>
+                        </div>
+						
+						<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/tehnolab_optimization/2.jpg" class="prettyPhoto[gallery21]">
+							<a href="lib/images/projects/tehnolab_optimization/3.jpg" class="prettyPhoto[gallery21]">
+							<a href="lib/images/projects/tehnolab_optimization/4.jpg" class="prettyPhoto[gallery21]">
+							<a href="lib/images/projects/tehnolab_optimization/5.jpg" class="prettyPhoto[gallery21]">
+							<a href="lib/images/projects/tehnolab_optimization/6.jpg" class="prettyPhoto[gallery21]">
+                            <a href="lib/images/projects/tehnolab_optimization/1.jpg" class="prettyPhoto[gallery21]">
+                                <img src="../../lib/images/projects/tehnolab_optimization/preview.png" alt="Фото проекта: Оптимизация рабочего места">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                        <div class="portfolio_details">
+                            <h2>Оптимизация рабочего места</h2>
+                            <span>Автор: МСО-11, команда TehnoLab</span>
+                        </div>
+                        </li>
+                   		 <!--end portofolio_item_4col -->
+					
+						<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/lasercnc_coolmodern/2.jpg" class="prettyPhoto[gallery22]">
+                            <a href="lib/images/projects/lasercnc_coolmodern/1.jpg" class="prettyPhoto[gallery22]">
+                                <img src="../../lib/images/projects/lasercnc_coolmodern/preview.png" alt="Фото проекта: Модернизация системы охлаждения лазерного ЧПУ станка">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Модернизация системы охлаждения лазерного ЧПУ станка</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/plasmo/2.jpg" class="prettyPhoto[gallery23]">
+							<a href="lib/images/projects/plasmo/3.jpg" class="prettyPhoto[gallery23]">
+							<a href="lib/images/projects/plasmo/4.jpg" class="prettyPhoto[gallery23]">
+							<a href="lib/images/projects/plasmo/5.jpg" class="prettyPhoto[gallery23]">
+                            <a href="lib/images/projects/plasmo/1.jpg" class="prettyPhoto[gallery23]">
+                                <img src="../../lib/images/projects/plasmo/preview.png" alt="Фото проекта: Чистка и обслуживание плазмореза">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Чистка и обслуживание плазмореза</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery24]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Новогодние подарочные сувениры преподавателям</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery25]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Подарочные сувениры преподавателям на 23 февраля и 8 марта</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery25]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Надписи на спецодежде мастерам ТКХиС</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery26]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Создание конструкции для солнечных панелей</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic">
+                        <div class="view view-first">
+                        <a href="../../lib/images/projects/vetrogenerator/2.jpg" class="prettyPhoto[gallery27]">
+						<a href="lib/images/projects/vetrogenerator/3.jpg" class="prettyPhoto[gallery27]">
+						<a href="lib/images/projects/vetrogenerator/1.jpg" class="prettyPhoto[gallery27]">
+                        <img src="../../lib/images/projects/vetrogenerator/preview.png" alt="Фото проекта: Ветрогенератор">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Ветрогенератор</h2>
+                            <span>Автор: студенты ТКХиС, команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col order">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/fonstolb/2.jpg" class="prettyPhoto[gallery28]">
+							<a href="lib/images/projects/fonstolb/1.jpg" class="prettyPhoto[gallery28]">
+                                <img src="../../lib/images/projects/fonstolb/preview.png" alt="Фото проекта: Фонарный столб">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Фонарный столб</h2>
+                            <span>Автор: СП-21, СВК-21, команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+							
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery29]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Защитный экран для фрезерного станка</h2>
+                            <span>Автор: Сажин А. В., команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col suvenir">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery30]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Проектирование и создание значков на день открытых дверей</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+				
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col experiments">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/stepmotor/2.jpg" class="prettyPhoto[gallery31]">
+                            <a href="lib/images/projects/stepmotor/1.jpg" class="prettyPhoto[gallery31]">
+                                <img src="../../lib/images/projects/stepmotor/preview.png" alt="Фото проекта: Подключение шагового двигателя к микроконтроллеру через драйвер">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Подключение шагового двигателя к микроконтроллеру через драйвер</h2>
+                            <span>Автор: команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+					
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col another">
+                        <div class="view view-first">
+							<a href="../../lib/images/projects/tlabbox/2.jpg" class="prettyPhoto[gallery32]">
+                            <a href="lib/images/projects/tlabbox/1.jpg" class="prettyPhoto[gallery32]">
+                                <img src="../../lib/images/projects/tlabbox/preview.png" alt="Фото проекта: Ящички для хранения радиоэлектронных компонентов">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Ящички для хранения радиоэлектронных компонентов</h2>
+                            <span>Автор: Сажин А. В., команда TehnoLab</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->
+							
+					<!--begin portofolio_item_4col -->
+                    <li class="portofolio_item_4col electronic suvenir experiments order another">
+                        <div class="view view-first">
+                            <a href="../../lib/images/projects/nophoto.png" class="prettyPhoto[gallery33]">
+                                <img src="../../lib/images/projects/nophoto.png" alt="TehnoLab">
+                                <span class="mask">
+                                    <span class="zoom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="portfolio_details">
+                            <h2>Здесь мог бы быть твой проект :)</h2>
+                            <span>Это место ждет тебя</span>
+                        </div>
+                    </li>
+                    <!--end portofolio_item_4col -->		
+					
+                </ul>
+                <!--end portfolio_list -->
+                
+            </div>
+            <!--end isotope -->
+                    
+        </section>
+        <!--end portfolio section -->
+		        <!-- begin quotes -->
+        <div class="quotes_wrapper">
+            <div class="quotes_box">
+                <span class="quotes_text">"Ваша работа заполнит большую часть жизни и единственный способ быть полностью довольным – делать то, что по-вашему является великим делом. И единственный способ делать великие дела – любить то, что вы делаете."</span>
+                <span class="quotes_autor yellow!important">~⌘ Стив Джобс, основатель компании Apple ⌘~</span>
+            </div>
+        </div>
+        <!-- end quotes -->
+        
+        <!--begin footer -->
+        <footer id="footer_wrapper">
+            
+            <!--begin footer -->
+            <div id="footer">
+            	
+                <!--begin row -->
+                <div class="row">
+                    
+                    <!--begin twelvecol -->
+                    <div class="twelvecol">  
+                        <!--begin copyright -->            
+						<p class="copyright yellow">© 2022 | TehnoLab | Сайт от #TheDayG0ne</p>
+                        <!--end copyright -->
+                        
+                        <!--begin back_to_top -->            
+                        <a href="#" class="back_to_top" id="scroll_top">▲ Вернуться наверх ▲</a>
+                        <!--end back_to_top -->
+                        
+                    </div>
+                    <!--end twelvecol -->
+                    
+                </div>
+                <!--end row -->
+                
+            </div>
+            <!--end footer_wrapper -->
+            
+        </footer>
+        <!--end footer -->
+           
+    </div>
+    <!--! end of #container -->
+    
+</body>
+</html>
